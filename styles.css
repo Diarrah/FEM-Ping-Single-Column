@@ -130,15 +130,17 @@ button {
     font-size: 1.5rem;
 }
 
+.social-list li a:hover {
+    background-color:var(--blue);
+    color: #fff;
+}
+
 .social-list li i {
     font-size: 22px;
     transform: translateY(25%);
 }
 
-.social-list li a:hover {
-    background-color:var(--blue);
-    color: #fff;
-}
+.social-list li span { display: none; }
 
 footer {
     font-size: 0.7rem;
